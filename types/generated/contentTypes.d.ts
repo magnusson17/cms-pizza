@@ -417,6 +417,7 @@ export interface ApiPizzaPizza extends Schema.CollectionType {
       'manyToMany',
       'api::ingredient.ingredient'
     >;
+    image: Attribute.Media<'images'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
